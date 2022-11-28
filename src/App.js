@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+
+let name = 'ali'
+
+const h2Styles = {
+  backgroundColor: 'black',
+  color: 'lime',
+  textAlign: 'center'
+}
+const divStyles = {
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  gap: 30
+}
+const btnStyles = {
+  backgroundColor: 'black',
+  color: 'lime',
+  textAlign: 'center',
+  border: '1px solid lime',
+  borderRadius: 4,
+  cursor: 'pointer'
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={divStyles}>
+      <h1 style={h2Styles}>Ay {name}, 2+2={2 + 2} edir.</h1>
+      <button
+        onClick={() => {
+          alert('test')
+        }}
+        style={btnStyles}
+      >click me</button>
     </div>
   );
 }
