@@ -1,4 +1,5 @@
 import Button from "./components/Button";
+import Counter from "./components/Counter";
 import Heading from "./components/Heading";
 
 const divStyles = {
@@ -12,8 +13,10 @@ const divStyles = {
 function App() {
   return (
     <div style={divStyles}>
-      <Heading />
+      <Heading basliq="Bizim basliq2" />
+      <Heading basliq="Menim adim ali" />
       <Button />
+      <Counter />
     </div>
   );
 }

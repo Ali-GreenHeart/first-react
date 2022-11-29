@@ -4,9 +4,9 @@ const h2Styles = {
     textAlign: 'center'
 }
 
-function Heading() {
+function Heading(props) {
     return (
-        <h1 style={h2Styles}>2+2={2 + 2} edir.</h1>
+        <h1 style={h2Styles}>{props.basliq}</h1>
     )
 }
 
