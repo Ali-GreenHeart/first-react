@@ -1,12 +1,8 @@
-const h2Styles = {
-    backgroundColor: 'black',
-    color: 'lime',
-    textAlign: 'center'
-}
+import styles from "./index.module.css"
 
 function Heading(props) {
     return (
-        <h1 style={h2Styles}>{props.basliq}</h1>
+        <h1 className={styles.text}>{props.basliq}</h1>
     )
 }
 
