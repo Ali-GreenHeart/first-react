@@ -7,12 +7,10 @@ const btnStyles = {
     cursor: 'pointer'
 }
 
-function Button() {
+function Button(props) {
     return (
         <button
-            onClick={() => {
-                alert('test')
-            }}
+            onClick={props.onClick}
             style={btnStyles}
         >click me</button>
     )
