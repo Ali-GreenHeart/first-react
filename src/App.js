@@ -1,11 +1,10 @@
-import Heading from "./components/Heading";
+import Users from "./components/Users";
 
 function App() {
 
   return (
     <>
-      <p className="text">heyy im p</p>
-      <Heading basliq="some metn" />
+      <Users />
     </>
   );
 }

@@ -1,0 +1,9 @@
+.usersContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 20px;
+    padding: 30px 0px;
+}

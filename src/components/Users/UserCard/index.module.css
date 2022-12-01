@@ -1,0 +1,28 @@
+.card {
+    max-width: 250px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 1s;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px red, 0 0 10px red inset, 0 0 25px orange inset, 0 0 50px yellow inset;
+}
+
+.card>h2 {
+    font-size: 2em;
+    margin: 8px 0;
+}
+
+.card>p {
+    font-size: 1.5em;
+    margin: 8px 0;
+}
+
+.card>img {
+    width: 100%;
+    border-radius: inherit;
+}
