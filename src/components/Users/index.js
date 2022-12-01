@@ -8,7 +8,7 @@ function Users() {
         <div className={styles.usersContainer}>
             {
                 users.map((user) => {
-                    return <UserCard img={user.img} username={user.username} job={user.job} />
+                    return <UserCard key={user.id} img={user.img} username={user.username} job={user.job} />
                 })
             }
         </div>
